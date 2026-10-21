@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="A responsive Flipkart-inspired e-commerce homepage UI built using HTML and CSS."
+    />
+    <title>Flipkart UI
+       | E-Commerce Website</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <!-- Header -->
+    <header>
+      <div class="header_wrapper">
+        <div class="header_logo">
+          <a href="#" aria-label="Flipkart UI home">
+            <img
+              src="https://ninjasfiles.s3.amazonaws.com/asset_0000000000003401_1715928842_Screenshot%202024-05-17%20122003.png"
+              alt="Flipkart-inspired logo"
+            />
+          </a>
+        </div>
+
+        <form class="header_search" role="search">
+          <input
+            class="search"
+            type="search"
+            name="search"
+            title="Search for Products, Brands and More"
+            aria-label="Search for products"
+            placeholder="Search for Products"
+          />
+          <button type="submit">Search</button>
+        </form>
+
+        <nav class="header_nav" aria-label="Main navigation">
+          <ul>
+            <li>
+              <button type="button">Login</button>
+            </li>
+            <li>
+              <button type="button">Cart</button>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <!-- Category Navigation -->
+      <section class="item-list" aria-label="Shop by category">
+        <div class="category-item">
+          <img
+            class="category-icon"
+            alt=""
+            aria-hidden="true"
+            src="https://ninjasfiles.s3.amazonaws.com/asset_0000000000003402_1715928861_29327f40e9c4d26b.png"
+          />
+          <span class="items">Grocery</span>
+        </div>
+
+        <div class="category-item">
+          <img
+            class="category-icon"
+            alt=""
+            aria-hidden="true"
+            src="https://ninjasfiles.s3.amazonaws.com/asset_0000000000003403_1715928872_22fddf3c7da4c4f4.png"
+          />
+          <span class="items">Mobiles</span>
+        </div>
+
+        <div class="category-item">
+          <img
+            class="category-icon"
+            alt=""
+            aria-hidden="true"
+            src="https://ninjasfiles.s3.amazonaws.com/asset_0000000000003404_1715928884_0d75b34f7d8fbcb3.png"
+          />
+          <span class="items">Fashion</span>
+        </div>
+
+        <div class="category-item">
+          <img
+            class="category-icon"
+            alt=""
+            aria-hidden="true"
+            src="https://ninjasfiles.s3.amazonaws.com/asset_0000000000003405_1715928894_69c6589653afdb9a.png"
+          />
+          <span class="items">Electronics</span>
+        </div>
+
+        <div class="category-item">
+          <img
+            class="category-icon"
+            alt=""
+            aria-hidden="true"
+            src="https://ninjasfiles.s3.amazonaws.com/asset_0000000000003406_1715928906_ab7e2b022a4587dd.png"
+          />
+          <span class="items">Furniture</span>
+        </div>
+
+        <div class="category-item">
+          <img
+            class="category-icon"
+            alt=""
+            aria-hidden="true"
+            src="https://ninjasfiles.s3.amazonaws.com/asset_0000000000003407_1715928915_0139228b2f7eb413.png"
+          />
+          <span class="items">Appliances</span>
+        </div>
+
+        <div class="category-item">
+          <img
+            class="category-icon"
+            alt=""
+            aria-hidden="true"
+            src="https://ninjasfiles.s3.amazonaws.com/asset_0000000000003408_1715928928_71050627a56b4693.png"
+          />
+          <span class="items">Travel</span>
+        </div>
+
+        <div class="category-item">
+          <img
+            class="category-icon"
+            alt=""
+            aria-hidden="true"
+            src="https://ninjasfiles.s3.amazonaws.com/asset_0000000000003409_1715928939_dff3f7adcf3a90c6.png"
+          />
+          <span class="items">Beauty, Toys</span>
+        </div>
+
+        <div class="category-item">
+          <img
+            class="category-icon"
+            alt=""
+            aria-hidden="true"
+            src="https://ninjasfiles.s3.amazonaws.com/asset_0000000000003410_1715928949_05d708653beff580.png"
+          />
+          <span class="items">Two Wheelers</span>
+        </div>
+      </section>
+
+      <!-- Main Promotional Banner -->
+      <section class="discount-banner" aria-label="Promotional offers">
+        <img
+          src="https://ninjasfiles.s3.amazonaws.com/asset_0000000000003411_1715928965_4227babcdcb113c8.png"
+          alt="Promotional discount offers"
+        />
+      </section>
+
+      <!-- Promotional Tiles -->
+      <section class="mid-banner" aria-label="Featured promotions">
+        <div>
+          <img
+            class="logo"
+            src="https://ninjasfiles.s3.amazonaws.com/asset_0000000000003412_1715928976_22e305bf45e2e1a2.png"
+            alt="Featured promotion one"
+            loading="lazy"
+          />
+        </div>
+
+        <div>
+          <img
+            class="logo"
+            src="https://ninjasfiles.s3.amazonaws.com/asset_0000000000003413_1715928986_6537e82f357a7f59.png"
+            alt="Featured promotion two"
+            loading="lazy"
+          />
+        </div>
+
+        <div>
+          <img
+            class="logo"
+            src="https://ninjasfiles.s3.amazonaws.com/asset_0000000000003414_1715928997_c9f829023c573ba8.png"
+            alt="Featured promotion three"
+            loading="lazy"
+          />
+        </div>
+      </section>
+
+      <!-- Top Deals -->
+      <section class="lower-banner" aria-labelledby="top-deals-heading">
+        <div class="lower-banner-heading">
+          <h2 id="top-deals-heading">Top Deals</h2>
+        </div>
+
+        <article class="lower-banner-ad">
+          <img
+            src="https://ninjasfiles.s3.amazonaws.com/asset_0000000000003415_1715929006_l.png"
+            alt="NB Shoes"
+            loading="lazy"
+          />
+          <span class="product-name">NB Shoes 80% Off</span>
+        </article>
+
+        <article class="lower-banner-ad">
+          <img
+            src="https://ninjasfiles.s3.amazonaws.com/asset_0000000000003416_1715929017_k.png"
+            alt="Adidas Runner shoes"
+            loading="lazy"
+          />
+          <span class="product-name">Adidas Runner</span>
+        </article>
+
+        <article class="lower-banner-ad">
+          <img
+            src="https://ninjasfiles.s3.amazonaws.com/asset_0000000000003417_1715929027_d.png"
+            alt="US Polo Denmark product"
+            loading="lazy"
+          />
+          <span class="product-name">US Polo Denmark</span>
+        </article>
+
+        <article class="lower-banner-ad">
+          <img
+            src="https://ninjasfiles.s3.amazonaws.com/asset_0000000000003418_1715929035_t.png"
+            alt="Rozers watch"
+            loading="lazy"
+          />
+          <span class="product-name">Rozers Watch</span>
+        </article>
+
+        <article class="lower-banner-ad">
+          <img
+            src="https://ninjasfiles.s3.amazonaws.com/asset_0000000000003419_1715929047_s.png"
+            alt="Cargo product"
+            loading="lazy"
+          />
+          <span class="product-name">Cargo 20% Off</span>
+        </article>
+
+        <article class="lower-banner-ad">
+          <img
+            src="https://ninjasfiles.s3.amazonaws.com/asset_0000000000003420_1715929057_a.png"
+            alt="NB Collections product"
+            loading="lazy"
+          />
+          <span class="product-name">NB Collections</span>
+        </article>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+      <div class="footer-container">
+        <section class="footer-section">
+          <h2>About</h2>
+          <ul>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#contact">Contact Us</a></li>
+            <li><a href="#careers">Careers</a></li>
+            <li><a href="#stories">Flipkart Stories</a></li>
+            <li><a href="#press">Press</a></li>
+          </ul>
+        </section>
+
+        <section class="footer-section">
+          <h2>Help</h2>
+          <ul>
+            <li><a href="#payments">Payments</a></li>
+            <li><a href="#shipping">Shipping</a></li>
+            <li><a href="#returns">Cancellation &amp; Returns</a></li>
+            <li><a href="#faq">FAQ</a></li>
+            <li><a href="#report">Report Infringement</a></li>
+          </ul>
+        </section>
+
+        <section class="footer-section">
+          <h2>Policy</h2>
+          <ul>
+            <li><a href="#return-policy">Return Policy</a></li>
+            <li><a href="#terms">Terms of Use</a></li>
+            <li><a href="#security">Security</a></li>
+            <li><a href="#privacy">Privacy</a></li>
+            <li><a href="#sitemap">Sitemap</a></li>
+          </ul>
+        </section>
+
+        <section class="footer-section">
+          <h2>Social</h2>
+          <ul>
+            <li><a href="#facebook">Facebook</a></li>
+            <li><a href="#twitter">Twitter</a></li>
+            <li><a href="#youtube">YouTube</a></li>
+          </ul>
+        </section>
+      </div>
+
+      <div class="footer-bottom">
+        <p>
+          &copy; 2026 Flipkart UI. Educational project, not affiliated
+          with Flipkart.
+        </p>
+      </div>
+    </footer>
+  </body>
+</html>
